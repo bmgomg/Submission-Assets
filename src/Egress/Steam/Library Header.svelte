@@ -1,9 +1,9 @@
 <script>
-	import Logo from '$lib/images/Egress/Logo.png';
+	import Box from '$lib/images/Egress/Steam/Box Tilted.png';
 </script>
 
 <div class="header-capsule">
-	<img src={Logo} alt="Logo" width={100} />
+	<img src={Box} alt="Logo" width={160} />
 	<div class="text">
 		<div class="title">Egress</div>
 		<div class="subtitle">GRAVITY &amp; ESCAPE</div>
@@ -15,9 +15,9 @@
 		display: grid;
 		grid-auto-flow: column;
         place-content: center;
-		gap: 40px;
-        width: 462px;
-        height: 174px;
+		gap: 10px;
+        width: 460px;
+        height: 215px;
         box-sizing: border-box;
         /* border: 1px dotted gray; */
 	}

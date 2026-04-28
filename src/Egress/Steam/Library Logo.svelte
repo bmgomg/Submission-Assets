@@ -2,8 +2,8 @@
 	import Logo from '$lib/images/Egress/Logo.png';
 </script>
 
-<div class="header-capsule">
-	<img src={Logo} alt="Logo" width={100} />
+<div class="main-capsule">
+	<img src={Logo} alt="Logo" width={150} />
 	<div class="text">
 		<div class="title">Egress</div>
 		<div class="subtitle">GRAVITY &amp; ESCAPE</div>
@@ -11,13 +11,13 @@
 </div>
 
 <style>
-	.header-capsule {
+	.main-capsule {
 		display: grid;
 		grid-auto-flow: column;
         place-content: center;
 		gap: 40px;
-        width: 462px;
-        height: 174px;
+        width: 640px;
+        height: 360px;
         box-sizing: border-box;
         /* border: 1px dotted gray; */
 	}
@@ -31,7 +31,7 @@
 	.title {
 		font-family: CD;
 		font-weight: 700;
-		font-size: 60px;
+		font-size: 90px;
 		color: var(--gold);
 		letter-spacing: 0.12em;
 		text-shadow:
@@ -41,8 +41,8 @@
 
 	.subtitle {
 		font-family: Cinzel;
-		font-size: 13px;
-		letter-spacing: 0.6em;
+		font-size: 20px;
+		letter-spacing: 0.55em;
 		color: var(--gold-lt);
 	}
 </style>
